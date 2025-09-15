@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Priyankar 
 - 👀 I’m working in Operations & Analytics
-- 🌱 I’m currently pursuing my Post Graduation in Advanced Data Analytics and Data Engineering
+- 🌱 I’m currently working on GenAI projects
 - 📫 How to reach me: @patnaikfarm or email me @ patnaikfarm@gmail.com
 - ⚡ Ex Razorpay :: Ex - Signzy 
 
