@@ -19,6 +19,7 @@ I'm an **Operations & Analytics Professional** specializing in **GenAI projects*
 ## 🎯 Core Competencies
 
 ```mermaid
+%%{init: {'theme':'default', 'themeVariables': { 'primaryColor':'#E3F2FD','primaryTextColor':'#000','primaryBorderColor':'#1976D2','lineColor':'#1976D2','secondaryColor':'#FFF3E0','tertiaryColor':'#F3E5F5'}}}%%
 mindmap
   root((Priyankar))
     Data Engineering
