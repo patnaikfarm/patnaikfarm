@@ -32,10 +32,6 @@ mindmap
       Data Modeling
     GenAI
       AI/ML Projects
-      Intelligent Systems
-    Operations
-      Process Optimization
-      Cross-functional Teams
 ```
 
 ### Technical Skills
