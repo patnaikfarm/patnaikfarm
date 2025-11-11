@@ -30,8 +30,6 @@ mindmap
       Business Intelligence
       Lineage Development
       Data Modeling
-    Generative AI
-      AI/ML Projects
 ```
 
 ### Technical Skills
