@@ -28,9 +28,9 @@ mindmap
       Data Quality
     Analytics
       Business Intelligence
-      Dashboard Development
+      Lineage Development
       Data Modeling
-    GenAI
+    Generative AI
       AI/ML Projects
 ```
 
