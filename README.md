@@ -22,14 +22,14 @@ I'm an **Operations & Analytics Professional** specializing in **GenAI projects*
 %%{init: {'theme':'default', 'themeVariables': { 'primaryColor':'#E3F2FD','primaryTextColor':'#000','primaryBorderColor':'#1976D2','lineColor':'#1976D2','secondaryColor':'#FFF3E0','tertiaryColor':'#F3E5F5'}}}%%
 mindmap
   root((Priyankar))
-    Data Engineering
-      ETL Pipelines
-      Data Integration
+    Transaction Enrichment
+      Merchant Data Cleansing
+      Classification Models
+      Registry Building
+    Descriptive Analytics
+      Dashboard Glossary & Governance
+      Source-to-Target Mapping
       Data Quality
-    Analytics
-      Business Intelligence
-      Lineage Development
-      Data Modeling
 ```
 
 ### Technical Skills
@@ -47,86 +47,64 @@ mindmap
 
 ---
 
-## 💼 Featured Projects
+## 💼 Featured Work
 
-### 🏦 Financial Analytics & BI Solutions
+All of the work below was scoped, tracked, and delivered as Product Backlog Items and tasks on **Azure DevOps Agile boards**, across two ongoing workstreams in a credit-union financial analytics platform.
 
-<table>
-<tr>
-<td width="50%">
-
-#### 📊 Dashboard Glossary System
-**Enterprise-wide data dictionary and metadata management**
-
-- Built comprehensive glossary systems for Executive Financial Summary, Executive Summary, and Digital Banking dashboards
-- Automated metadata documentation across DEV, QA, and UAT environments
-- Created unified data definitions for cross-functional teams
-- Improved data governance and self-service analytics
-
-**Tech Stack:** SQL, Data Modeling, BI Tools, Azure DevOps
-
-**Impact:** Enhanced data literacy and reduced reporting discrepancies across the organization
-
-</td>
-<td width="50%">
-
-#### 🔄 Merchant Data Integration Platform
-**Multi-core banking system integration and data cleansing**
-
-- Integrated merchant data from 3 core banking systems (Episys, DNA, Keystone)
-- Developed automated data cleansing workflows using pattern recognition
-- Built STT (Standard Transaction Type) mapping system
-- Implemented quality checks and validation framework
-
-**Tech Stack:** Python, SQL, ETL, Data Quality Tools
-
-**Impact:** Standardized merchant data across platforms, enabling accurate transaction analytics
-
-</td>
-</tr>
-</table>
-
----
-
-### 📈 Advanced Analytics & Data Science
+### 🔄 Transaction Enrichment
 
 <table>
 <tr>
 <td width="50%">
 
-#### 💳 Transaction Classification Engine
+#### 🏪 Merchant Data Integration & Cleansing
+**Multi-core banking system data normalization**
+
+- Integrated and cleansed merchant data across 3 core banking platforms (Episys, DNA, Keystone) plus PSCU processor feeds
+- Built regex-based pattern recognition to normalize raw merchant name strings
+- Investigated and resolved cross-client deposit-transaction data anomalies
+- Validated cleansing logic across multiple client datasets before production rollout
+
+**Tech Stack:** Python, SQL, Regex, Data Quality Tools
+
+</td>
+<td width="50%">
+
+#### 💳 Transaction Classification & Enrichment Models
 **Intelligent transaction categorization system**
 
-- Developed payroll indicator identification algorithm
-- Built credit/debit bifurcation logic for transaction routing
-- Analyzed ACH transaction types across multiple credit unions
-- Created false positive/negative analysis framework
+- Built a multi-class transaction classification model for automated categorization
+- Developed payroll indicator identification and credit/debit bifurcation logic
+- Built spending-channel classification (e.g. in-store, online, ATM, P2P) rule sets
+- Created false-positive/false-negative analysis framework to tune model accuracy
 
 **Tech Stack:** Python, Machine Learning, SQL, Statistical Analysis
 
-**Key Features:**
-- ✅ Automated transaction type detection
-- ✅ Pattern-based classification
-- ✅ Multi-client validation framework
-- ✅ Real-time data quality monitoring
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+#### 📇 Merchant & Provider Registries
+**Reference data for enrichment pipelines**
+
+- Built a Buy-Now-Pay-Later (BNPL) provider registry with merchant-mapping rules
+- Built a subscription-service registry and merchant-mapping rule set
+- Maintained and validated registries as new providers/merchants emerged
+
+**Tech Stack:** SQL, Python, Azure DevOps
 
 </td>
 <td width="50%">
 
-#### 🔍 PSCU Deposit Transactions Analysis
-**Deep-dive investigation and data pipeline optimization**
+#### 🛡️ Financial Wellness Signals
+**Responsible-lending & member-risk indicators**
 
-- Conducted SPIKE investigation on deposit transaction anomalies
-- Analyzed transaction patterns across multiple clients
-- Identified root causes of data inconsistencies
-- Implemented corrective measures and validation checks
+- Contributed to detection logic for member reliance on high-cost short-term credit products
+- Built scoring metrics and member-flagging logic for downstream risk/wellness reporting
+- Supported cross-system data exploration to identify usable transaction signals
 
-**Tech Stack:** SQL, Python, Data Analysis, Azure DevOps
-
-**Deliverables:**
-- 📋 Comprehensive analysis reports
-- 🔧 Data pipeline improvements
-- ✅ Multi-client validation protocols
+**Tech Stack:** SQL, Python, Data Analysis
 
 </td>
 </tr>
@@ -134,43 +112,61 @@ mindmap
 
 ---
 
-### 🛠️ Data Quality & Engineering
+### 📊 Descriptive Analytics
 
 <table>
 <tr>
 <td width="50%">
 
-#### ✅ Data Quality Assurance Framework
-**End-to-end data validation and QA automation**
+#### 📖 Dashboard Glossary & Metadata Governance
+**Enterprise-wide data dictionary for BI dashboards**
 
-- Resolved 10+ critical QA defects in production systems
-- Built automated sanity check frameworks
-- Developed data reconciliation processes
-- Created comprehensive testing and validation reports
+- Built and maintained a glossary/data-dictionary system spanning loan, deposit, GL, and account-level dashboards (executive summary, digital banking, credit card, loan portfolio, and more)
+- Automated metadata documentation and kept it in sync across dev, QA, and UAT environments
+- Created unified, client-agnostic data definitions for cross-functional consumption
 
-**Highlights:**
-- 🔍 Missing LOAN_ACCOUNT_IDs investigation
-- 🎯 Merchant info validation across systems
-- 📐 Net interest margin calculation fixes
-- 🔄 Cross-system data consistency checks
+**Tech Stack:** SQL, Data Modeling, BI Tools, Azure DevOps
 
 </td>
 <td width="50%">
 
-#### 🏗️ Multi-Environment Deployment Pipeline
-**Streamlined deployment across DEV, QA, and UAT**
+#### 🔗 Source-to-Target Mapping Maintenance
+**Core-system field mapping for reporting accuracy**
 
-- Automated deployment processes across environments
-- Maintained data consistency through staging cycles
-- Implemented rollback and recovery procedures
-- Created environment-specific configuration management
+- Updated and validated source-to-target field mappings for core loan attributes (e.g. interest rate, credit limit) across DNA and other core platforms
+- Resolved data-quality defects including deduplication logic and missing/mismatched identifiers
+- Evaluated new data sources (e.g. loan origination system fields) via research spikes before onboarding
 
-**Tech Stack:** Azure DevOps, CI/CD, Infrastructure as Code
+**Tech Stack:** SQL, Python, Data Quality Tools
 
-**Achievements:**
-- ⚡ Reduced deployment time by 60%
-- 🎯 Zero-downtime deployments
-- 📊 Improved environment parity
+</td>
+</tr>
+</table>
+
+---
+
+### 🏗️ Delivery & Quality Practices
+
+<table>
+<tr>
+<td width="50%">
+
+#### ✅ Data Quality Assurance
+**End-to-end validation and QA automation**
+
+- Resolved production QA defects across transaction and reporting pipelines
+- Built automated data-sanity-check frameworks (missing, null, and garbage value detection)
+- Ran cross-system consistency checks and reconciliation reports
+
+</td>
+<td width="50%">
+
+#### 🚀 Multi-Environment Release Management
+**Consistent delivery across dev, QA, and UAT**
+
+- Coordinated glossary/mapping/model releases across dev, QA, and UAT environments
+- Maintained environment parity and reduced release-related discrepancies
+- Iterated through Agile sprints on Azure DevOps boards
 
 </td>
 </tr>
@@ -182,13 +178,12 @@ mindmap
 
 <div align="center">
 
-| Category | Projects Completed | Impact |
-|----------|-------------------|--------|
-| 📊 Dashboard & BI | 5+ | Enhanced data literacy org-wide |
-| 🔄 Data Integration | 3+ | Unified multi-system data |
-| 💳 Transaction Analytics | 4+ | Improved transaction accuracy |
-| ✅ Data Quality | 10+ | Resolved critical production issues |
-| 🚀 Deployments | 15+ | Seamless multi-env releases |
+| Category | Focus Area | Impact |
+|----------|-----------|--------|
+| 🔄 Transaction Enrichment | Merchant cleansing, classification models, registries | Standardized transaction data across core platforms |
+| 📊 Descriptive Analytics | Dashboard glossary, source-to-target mapping | Improved data governance and reporting accuracy |
+| ✅ Data Quality | Defect resolution, sanity checks | Resolved critical production data issues |
+| 🚀 Deployments | Multi-environment releases | Seamless dev → QA → UAT delivery |
 
 </div>
 
@@ -200,8 +195,8 @@ mindmap
 <summary><b>Financial Services & Banking</b></summary>
 <br>
 
-- Core Banking Systems (Episys, DNA, Keystone)
-- Transaction Processing & Classification
+- Core Banking Systems (Episys, DNA, Keystone, PSCU)
+- Transaction Processing, Enrichment & Classification
 - Deposit & Loan Analytics
 - Merchant Data Management
 - Financial Reporting & Compliance
